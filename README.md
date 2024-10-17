@@ -134,16 +134,16 @@ As shown by the purple lines, the majority of the songs seem to be played betwee
 
 From the amount of skips for each song, it's then possible to get respectively the 20 _least_ and _most_ skipped songs:  
 (For a more interesting result, the plots show only the songs that have been played at least 125 times)  
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_top20_F125.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_top20_F125.png" width = "500">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_top20_F125.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_top20_F125.png" width = "470">  
 
 Since the least skipped songs plot is largely composed of lo-fi songs, by removing them there is most likely going to be an interesting difference:  
 - Top 20 _least_ skipped not-lofi songs (which have been played at least 125 times)  
 - Top 20 _most_ skipped rock songs (which have been played at least 25 times)
 
 The resulting plots are:  
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_-lofi_top20_F125.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_+rock_top20_F25.png" width = "500">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_-lofi_top20_F125.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_+rock_top20_F25.png" width = "470">  
 
 
 
@@ -199,8 +199,8 @@ month year ms_played               timestamp ms_played
 Monthly distribution of playing time:  
 The first plot shows all the years’ observations, ranging from 2017 to 2024  
 The second one only shows the years which have songs played in every month of the year, thus keeping only the years between 2021 and 2023.  
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/monthly_distribution.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/monthly_distribution_cut_+mean.png" width = "500">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/monthly_distribution.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/monthly_distribution_cut_+mean.png" width = "470">  
 
 There are some ideas of possible seasonality between the years:  
 - A seemingly clear drop of playing time in august, probably since it's the usual time for a vacation and more outside activities by having more free time.  
@@ -215,10 +215,10 @@ Though all in all the plot lines seeem to be quite variable, without clear seaso
 Distribution of the time listened based on the release date of the songs:  
 Each column represents the combined playing time of all the songs released in that year.  
 The plots also show the comparison between 3 of the most played genres:   
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution_+pop.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution_+rock.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution_+lofi.png" width = "500">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution_+pop.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution_+rock.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/release_ms_distribution_+lofi.png" width = "470">  
 From the first generic plot there is a clear spike of playing time in the year 2020, which might be explained by adding the lofi distribution in the last plot.
 Since lofi is both a relatively new genre and one of the most played genres, it makes sense to have most of the songs come from the latest years.  
 On the other hand, another both interesting and logical piece of information is that most of the older songs are rock, which doesn't surprise much thanks to its popularity at the time.  
@@ -228,14 +228,14 @@ On the other hand, another both interesting and logical piece of information is 
 # Hours of the day Analysis
 
 Distribution of the hours spent listening to music among the different hours of the day:  
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_+rock.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_+lofi.png" width = "500">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_+rock.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_+lofi.png" width = "470">  
 Both the rock and lo-fi distributions, as weel the other genres, don't seem to drift too much from the shape of the total distribution, apart from some slight changes.  
 
 A clearer way to see the small differences can be done by utilizing the percentage of the genre columns over the total column height, with the blue line indicating the mean.  
 The respective distribution of the percentage hours played of the specified genre over the total:  
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_perc_+rock.png" width = "500">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_perc_+lofi.png" width = "500">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_perc_+rock.png" width = "470">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/hourly_distribution_perc_+lofi.png" width = "470">  
 These last 2 plots show the hours of the day in which the specified genre is listened the most in percentage compared to the others.  
 For example, even though the music played at 3am is much less then during the day, the rock genre is listened in proportion the most at those hours, making almost 30% of all the songs listened at 3am, compared to about 20% during the rest of the day.  
  
