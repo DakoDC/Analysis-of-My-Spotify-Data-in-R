@@ -134,16 +134,16 @@ As shown by the purple lines, the majority of the songs seem to be played betwee
 
 From the amount of skips for each song, it's then possible to get respectively the 20 _least_ and _most_ skipped songs:  
 (For a more interesting result, the plots show only the songs that have been played at least 125 times)  
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_top20_F125.png" width = "400">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_top20_F125.png" width = "400">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_top20_F125.png" width = "415">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_top20_F125.png" width = "415">  
 
 Since the least skipped songs plot is largely composed of lo-fi songs, by removing them there is most likely going to be an interesting difference:  
 - Top 20 _least_ skipped not-lofi songs (which have been played at least 125 times)  
 - Top 20 _most_ skipped rock songs (which have been played at least 25 times)
 
 The resulting plots are:  
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_-lofi_top20_F125.png" width = "425">
-<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_+rock_top20_F25.png" width = "425">  
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_least_-lofi_top20_F125.png" width = "410">
+<img src="https://github.com/DakoDC/Analysis-of-My-Spotify-Data-in-R/blob/main/Images/skips_most_+rock_top20_F25.png" width = "410">  
 
 
 
