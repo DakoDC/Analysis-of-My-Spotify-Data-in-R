@@ -1,0 +1,25 @@
+[
+  {
+    "ts": "2021-12-01T19:14:51Z",
+    "username": "gfvjvm0cwicn0763bl2swktmi",
+    "platform": "Android-tablet OS 11 API 30 (SAMSUNG, SM-T870)",
+    "ms_played": 152,
+    "conn_country": "IT",
+    "ip_addr_decrypted": "109.118.118.7",
+    "user_agent_decrypted": "unknown",
+    "master_metadata_track_name": null,
+    "master_metadata_album_artist_name": null,
+    "master_metadata_album_album_name": null,
+    "spotify_track_uri": null,
+    "episode_name": "Alan Walker",
+    "episode_show_name": "2021 Wrapped",
+    "spotify_episode_uri": "spotify:episode:23GmjwY7pqkTcaGK5l2gFX",
+    "reason_start": "clickrow",
+    "reason_end": "unexpected-exit-while-paused",
+    "shuffle": false,
+    "skipped": null,
+    "offline": null,
+    "offline_timestamp": null,
+    "incognito_mode": false
+  }
+]

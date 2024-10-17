@@ -236,9 +236,16 @@ The respective distribution of the percentage hours played of the specified genr
 <img src="https://github.com/DakoDC/My-Spotify-Data-Analysis-in-R/blob/main/Images/hourly_distribution_perc_+lofi.png" width = "500">  
 These last 2 plots show the hours of the day in which the specified genre is listened the most in percentage compared to the others.  
 For example, even though the music played at 3am is much less then during the day, the rock genre is listened in proportion the most at those hours, making almost 30% of all the songs listened at 3am, compared to about 20% during the rest of the day.  
+<<<<<<< Updated upstream
  
 Interestingly at 4-5 am, the amount of lofi songs played compared to other genres is much higher then in the other hours of the day, almost reaching 50% of all the songs played at these hours.  
 Also, lofi songs seem to be played more in the late or early times of the day, most likely due to the relaxing nature of the genre.  
 
 
+=======
+>>>>>>> Stashed changes
  
+Interestingly at 4-5 am, the amount of lofi songs played compared to other genres is much higher then in the other hours of the day, almost reaching 50% of all the songs played at these hours.  
+Also, lofi songs seem to be played more in the late or early times of the day, most likely due to the relaxing nature of the genre.  
+
+
